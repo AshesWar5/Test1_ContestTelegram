@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | ContestTelegram</title>
+    <title>Unity Web Player | PROResource</title>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=1080 height=1920 tabindex="-1" style="width: 1080px; height: 1920px; background: #FFFFFF"></canvas>
-    <script src="Build/Test1_ContestTelegram.loader.js"></script>
+    <script src="Build/PROResource Build.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -25,12 +25,13 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Test1_ContestTelegram.data.unityweb",
-        frameworkUrl: "Build/Test1_ContestTelegram.framework.js.unityweb",
-        codeUrl: "Build/Test1_ContestTelegram.wasm.unityweb",
+        arguments: [],
+        dataUrl: "Build/PROResource Build.data.unityweb",
+        frameworkUrl: "Build/PROResource Build.framework.js.unityweb",
+        codeUrl: "Build/PROResource Build.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "ContestTelegram",
-        productName: "ContestTelegram",
+        companyName: "DefaultCompany",
+        productName: "PROResource",
         productVersion: "1.0",
         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
